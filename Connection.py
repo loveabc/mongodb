@@ -9,5 +9,6 @@ cur=collection.find()#读取该集合的所有数据
 for c in cur:#遍历数据
     print(c)
     print(c['name'])
+下面两个close()的作用是关闭游标与客户端吗?
 cur.close()
 client.close()
